@@ -9,4 +9,5 @@ export MULTICAST=${MULTICAST:-false}
 export NAMESPACE=${NAMESPACE:-default}
 export DISCOVERY_SERVICE=${DISCOVERY_SERVICE:-elasticsearch-discovery}
 
+echo "Discovery is: $DISCOVERY_SERVICE"
 /elasticsearch/bin/elasticsearch

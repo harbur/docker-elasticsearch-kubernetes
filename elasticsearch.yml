@@ -17,7 +17,7 @@ http.enabled: ${HTTP_ENABLE}
 
 cloud:
   k8s:
-    service: ${DISCOVERY_SERVICE}
+    service: elasticsearch-discovery
     namespace: ${NAMESPACE}
 discovery:
   type: io.fabric8.elasticsearch.discovery.k8s.K8sDiscoveryModule
